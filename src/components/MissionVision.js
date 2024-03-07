@@ -12,7 +12,7 @@ const MissionVision = () => {
                         <div className="col-lg-7 col-md-12">
                             {/* col-img-img-three */}
                             <div className="col-bg-img-three ttm-bg ttm-col-bgimage-yes ttm-left-span z-index-2">
-                                <div className="ttm-col-wrapper-bg-layer ttm-bg-layer" style={{ backgroundImage: 'url(https://via.placeholder.com/1092x708?text=1092x708+col-bgimage-3.jpg)' }}></div>
+                                <div className="ttm-col-wrapper-bg-layer ttm-bg-layer" style={{ backgroundImage: 'url(images/slides/MissionVisionbg.png)' }}></div>
                                 <div className="layer-content">
                                 </div>
                                 <img className="img-fluid col-bg-img-res" src="https://via.placeholder.com/1092x708?text=1092x708+col-bgimage-3.jpg" alt="bgimage" />
@@ -43,9 +43,9 @@ const MissionVision = () => {
                                                     <div className="row">
                                                         <div className="col-lg-4 col-md-3 col-sm-4">
                                                             <img className="img-fluid alignleft"
-                                                                height="200" width="200" src="https://via.placeholder.com/200x200?text=tab-img01-200x200.jpg" alt="image" />
-                                                                  <img className="img-fluid alignleft"
-                                                                height="200" width="200" src="https://via.placeholder.com/200x200?text=tab-img01-200x200.jpg" alt="image" />
+                                                                height="200" width="200" src="images/slides/Mission1.png" alt="image" />
+                                                            <img className="img-fluid alignleft"
+                                                                height="200" width="200" src="images/slides/Mission2.png" alt="image" />
                                                         </div>
                                                         <div className="col-lg-8 col-md-9 col-sm-8">
                                                             <div className="pt-15">
@@ -62,8 +62,7 @@ const MissionVision = () => {
                                                 <TabPanel>
                                                     <div className="row">
                                                         <div className="col-lg-4 col-md-3 col-sm-4">
-                                                            <img className="img-fluid alignleft" height="200" width="200" src="https://via.placeholder.com/200x200?text=tab-img02-200x200.jpg
-" alt="image" />
+                                                            <img className="img-fluid alignleft" height="200" width="200" src="images/slides/Vision.png" alt="image" />
                                                         </div>
                                                         <div className="col-lg-8 col-md-9 col-sm-8">
                                                             <div className="pt-15">
@@ -81,14 +80,10 @@ const MissionVision = () => {
                                                 <TabPanel>
                                                     <div className="row">
                                                         <div className="col-lg-4 col-md-3 col-sm-4">
-                                                            <img className="img-fluid alignleft" height="200" width="200" src="https://via.placeholder.com/200x200?text=tab-img03-200x200.jpg
-" alt="image" />
-                                                            <img className="img-fluid alignleft" height="200" width="200" src="https://via.placeholder.com/200x200?text=tab-img03-200x200.jpg
-" alt="image" />
-                                                            <img className="img-fluid alignleft" height="200" width="200" src="https://via.placeholder.com/200x200?text=tab-img03-200x200.jpg
-" alt="image" />
-                                                            <img className="img-fluid alignleft" height="200" width="200" src="https://via.placeholder.com/200x200?text=tab-img03-200x200.jpg
-" alt="image" />
+                                                            <img className="img-fluid alignleft" height="200" width="200" src="images/slides/CoreValue/4.png" alt="image" />
+                                                            <img className="img-fluid alignleft" height="200" width="200" src="images/slides/CoreValue/5.png" alt="image" />
+                                                            <img className="img-fluid alignleft" height="200" width="200" src="images/slides/CoreValue/6.png" alt="image" />
+                                                            <img className="img-fluid alignleft" height="200" width="200" src="images/slides/CoreValue/7.png" alt="image" />
                                                         </div>
                                                         <div className="col-lg-8 col-md-9 col-sm-8">
                                                             <div className="pt-15">

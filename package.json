@@ -1,5 +1,5 @@
 {
-  "name": "hireco", 
+  "name": "hireco",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://sagardhavade.github.io/atlas",
@@ -27,8 +27,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -52,6 +52,7 @@
     ]
   },
   "devDependencies": {
-    "fslightbox-react": "^1.6.2"
+    "fslightbox-react": "^1.7.6",
+    "gh-pages": "^6.1.1"
   }
 }

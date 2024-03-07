@@ -252,9 +252,9 @@ export class Home2 extends Component {
                             </div>
                             <div className="col-lg-6 col-md-9 col-sm-10 col-12 mx-auto">
                                 <div className="mr-40 ml-20 pb-60 pt-lg-50">
-                                    <div className="d-flex justify-content-between" style={{ backgroundImage: 'url(https://via.placeholder.com/508x500?text=single-img-01-508x500.png)', backgroundSize: 'cover' }}>
+                                    <div className="d-flex justify-content-between" style={{ backgroundImage: 'url(images/slides/single-img-01-508x500.png)', backgroundSize: 'cover' }}>
                                         <div className="pt-20 pr-20 bg-theme-WhiteColor ml_20 mb_60 mt-200">
-                                            <img src="https://via.placeholder.com/350x290?text=single-img-02-350x290.png" className="img-fluid" alt="bgimage" />
+                                            <img src="images/slides/single-img-02.png" className="img-fluid" alt="bgimage" />
                                         </div>
                                         <div className="d-flex align-items-start h-100 mr_30 pt-50">
                                             <div className="ttm-play-icon-btn p-20 bg-theme-SkinColor">
@@ -411,7 +411,7 @@ export class Home2 extends Component {
                                 {/* col-img-img-four */}
                                 <div className="col-bg-img-four ttm-col-bgimage-yes ttm-bg mt-100 mt-lg-60 mr-30 mr-lg-0 border border-15
                             border-white p-15 h-100">
-                                    <div className="ttm-col-wrapper-bg-layer ttm-bg-layer" style={{ backgroundImage: 'url(https://via.placeholder.com/560x505?text=560x505+col-bgimage-4.jpg)' }}></div>
+                                    <div className="ttm-col-wrapper-bg-layer ttm-bg-layer" style={{ backgroundImage: 'url(images/slides/560x505+col-bgimage-4.png)' }}></div>
                                     <div className="layer-content"></div>
                                     <img src="https://via.placeholder.com/560x505?text=560x505+col-bgimage-4.jpg" className="img-fluid col-bg-img-res" alt="bgimage" />
                                 </div>{/* col-img-bg-img-four end */}
@@ -469,17 +469,17 @@ export class Home2 extends Component {
                             </div>
                         </div>{/* row end */}
                         {/* Slider */}
-                        <Slider className="row slick_slider mb_10 slick-arrows-style1" {...slick_slider} slidesToShow={4} arrows={true}>
+                        <Slider className="row slick_slider mb_10 slick-arrows-style1" {...slick_slider} slidesToShow={3} arrows={true}>
                             <div className="col-md-12">
                                 {/* featured-imagebox */}
                                 <div className="featured-imagebox featured-imagebox-country">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                        <img src={"https://via.placeholder.com/720x600?text=720x600+country-01.jpg"} />
+                                        <img src={"images/slides/Office/1.png"} />
                                     </div>{/* featured-thumbnail end */}
                                     <div className="featured-content">
                                         <div className="featured-title">
-                                            <h3><a href={process.env.PUBLIC_URL + '/'}>United States</a></h3>
+                                            <h3><a href={process.env.PUBLIC_URL + '/'}>Mumbai – India</a></h3>
                                         </div>
                                         <div className="featured-desc">
                                             <p>A millions of decision about who has a right to settle.</p>
@@ -492,11 +492,11 @@ export class Home2 extends Component {
                                 <div className="featured-imagebox featured-imagebox-country">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                        <img className="img-fluid" src="https://via.placeholder.com/720x600?text=720x600+country-02.jpg" alt="image" />
+                                        <img className="img-fluid" src="images/slides/Office/2.png" alt="image" />
                                     </div>{/* featured-thumbnail end */}
                                     <div className="featured-content">
                                         <div className="featured-title">
-                                            <h3><a href={process.env.PUBLIC_URL + '/'}>Australia</a></h3>
+                                            <h3><a href={process.env.PUBLIC_URL + '/'}>Doha – Qatar</a></h3>
                                         </div>
                                         <div className="featured-desc">
                                             <p>Our head quarters is in Canberra, help throughout process</p>
@@ -509,11 +509,11 @@ export class Home2 extends Component {
                                 <div className="featured-imagebox featured-imagebox-country">
                                     {/* featured-thumbnail */}
                                     <div className="featured-thumbnail">
-                                        <img className="img-fluid" src="https://via.placeholder.com/720x600?text=720x600+country-03.jpg" alt="image" />
+                                        <img className="img-fluid" src="images/slides/Office/3.png" alt="image" />
                                     </div>{/* featured-thumbnail end */}
                                     <div className="featured-content">
                                         <div className="featured-title">
-                                            <h3><a href={process.env.PUBLIC_URL + '/'}>Canada</a></h3>
+                                            <h3><a href={process.env.PUBLIC_URL + '/'}>Dubai – UAE</a></h3>
                                         </div>
                                         <div className="featured-desc">
                                             <p>We will help in every step of the application process.</p>
@@ -521,57 +521,8 @@ export class Home2 extends Component {
                                     </div>
                                 </div>{/* featured-imagebox end */}
                             </div>
-                            <div className="col-md-12">
-                                {/* featured-imagebox */}
-                                <div className="featured-imagebox featured-imagebox-country">
-                                    {/* featured-thumbnail */}
-                                    <div className="featured-thumbnail">
-                                        <img className="img-fluid" src="https://via.placeholder.com/720x600?text=720x600+country-04.jpg" alt="image" />
-                                    </div>{/* featured-thumbnail end */}
-                                    <div className="featured-content">
-                                        <div className="featured-title">
-                                            <h3><a href={process.env.PUBLIC_URL + '/'}>United Kingdom</a></h3>
-                                        </div>
-                                        <div className="featured-desc">
-                                            <p>We will help you with every step process of recruitment.</p>
-                                        </div>
-                                    </div>
-                                </div>{/* featured-imagebox end */}
-                            </div>
-                            <div className="col-md-12">
-                                {/* featured-imagebox */}
-                                <div className="featured-imagebox featured-imagebox-country">
-                                    {/* featured-thumbnail */}
-                                    <div className="featured-thumbnail">
-                                        <img className="img-fluid" src="https://via.placeholder.com/720x600?text=720x600+country-01.jpg" alt="image" />
-                                    </div>{/* featured-thumbnail end */}
-                                    <div className="featured-content">
-                                        <div className="featured-title">
-                                            <h3><a href={process.env.PUBLIC_URL + '/'}>United States</a></h3>
-                                        </div>
-                                        <div className="featured-desc">
-                                            <p>A millions of decision about who has a right to settle.</p>
-                                        </div>
-                                    </div>
-                                </div>{/* featured-imagebox end */}
-                            </div>
-                            <div className="col-md-12">
-                                {/* featured-imagebox */}
-                                <div className="featured-imagebox featured-imagebox-country">
-                                    {/* featured-thumbnail */}
-                                    <div className="featured-thumbnail">
-                                        <img className="img-fluid" src="https://via.placeholder.com/720x600?text=720x600+country-03.jpg" alt="image" />
-                                    </div>{/* featured-thumbnail end */}
-                                    <div className="featured-content">
-                                        <div className="featured-title">
-                                            <h3><a href={process.env.PUBLIC_URL + '/'}>Canada</a></h3>
-                                        </div>
-                                        <div className="featured-desc">
-                                            <p>We will help in every step of the application process.</p>
-                                        </div>
-                                    </div>
-                                </div>{/* featured-imagebox end */}
-                            </div>
+                           
+                            
                         </Slider>
                         {/* Slider end */}
                     </div>
@@ -599,21 +550,21 @@ export class Home2 extends Component {
                                     <div className="col-sm-4">
                                         <div className="client-box">
                                             <div className="client-thumbnail">
-                                                <img className="img-fluid" src="https://via.placeholder.com/159x52?text=159x52+client-01.png" alt="image" />
+                                                <img className="img-fluid" src="images/slides/Client/1.png" alt="image" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-sm-4">
                                         <div className="client-box">
                                             <div className="client-thumbnail">
-                                                <img className="img-fluid" src="https://via.placeholder.com/159x52?text=159x52+client-02.png" alt="image" />
+                                                <img className="img-fluid" src="images/slides/Client/2.png" alt="image" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-sm-4">
                                         <div className="client-box">
                                             <div className="client-thumbnail">
-                                                <img className="img-fluid" src="https://via.placeholder.com/159x52?text=159x52+client-03.png" alt="image" />
+                                                <img className="img-fluid" src="images/slides/Client/3.png" alt="image" />
                                             </div>
                                         </div>
                                     </div>
@@ -623,24 +574,18 @@ export class Home2 extends Component {
                                     <div className="col-sm-4">
                                         <div className="client-box">
                                             <div className="client-thumbnail">
-                                                <img className="img-fluid" src="https://via.placeholder.com/159x52?text=159x52+client-04.png" alt="image" />
+                                                <img className="img-fluid" src="images/slides/Client/4.png" alt="image" />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-sm-4">
                                         <div className="client-box">
                                             <div className="client-thumbnail">
-                                                <img className="img-fluid" src="https://via.placeholder.com/159x52?text=159x52+client-05.png" alt="image" />
+                                                <img className="img-fluid" src="images/slides/Client/5.png" alt="image" />
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-sm-4">
-                                        <div className="client-box mb-0">
-                                            <div className="client-thumbnail">
-                                                <img className="img-fluid" src="https://via.placeholder.com/159x52?text=159x52+client-06.png" alt="image" />
-                                            </div>
-                                        </div>
-                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>

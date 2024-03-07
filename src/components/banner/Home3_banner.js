@@ -78,7 +78,7 @@ export class Banner extends Component {
                             <div className="col-lg-6">
                                 <div className="d-none d-xl-block text-center position-relative">
                                     <div className="z-index-1 position-relative">
-                                      <img  className="rounded-circle box-shadow m-auto img-fuild" src="https://via.placeholder.com/332x332?text=single01-332x332.jpg"></img>
+                                      <img  className="rounded-circle box-shadow m-auto img-fuild" src="images/slides/single01-332x332.png"></img>
                                     </div>
                                     <div className="cmp-logo one">
                                         <img className="img-fluid" src="images/slides/logo1.png" />
