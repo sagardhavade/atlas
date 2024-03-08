@@ -595,7 +595,7 @@ export class Home2 extends Component {
 
 
                 {/* fid-section */}
-                <section className="ttm-row fid-section bg-img4 bg-theme-DarkColor ttm-bg ttm-bgimage-yes text-theme-WhiteColor clearfix" style={{ backgroundImage: 'url("https://via.placeholder.com/1920x570?text=1920x570+row-bgimage-4.jpg")' }}>
+                <section className="ttm-row fid-section bg-img4 bg-theme-DarkColor ttm-bg ttm-bgimage-yes text-theme-WhiteColor clearfix" style={{ backgroundImage: 'url("images/slides/1920x570+row-bgimage-4.png")' }}>
                     <div className="ttm-row-wrapper-bg-layer ttm-bg-layer bg-theme-DarkColor"></div>
                     <div className="container">
                         {/* row */}
@@ -772,7 +772,7 @@ export class Home2 extends Component {
                                 </div>
                                 {/* ttm_single_image-wrapper */}
                                 <div className="ttm_single_image-wrapper">
-                                    <img className="img-fluid" src="https://via.placeholder.com/570x580?text=single-img-03-570x580.jpg" alt="single_03" />
+                                    <img className="img-fluid" src="images/slides/single-img-03.png" alt="single_03" />
                                 </div>{/* ttm_single_image-wrapper */}
                             </div>
                         </div>{/* row end */}
