@@ -93,7 +93,7 @@ export class About_us extends Component {
                                         <TabPanel>
                                         <div className="row">
                                             <div className="col-lg-4 col-md-3 col-sm-4">
-                                                <img className="img-fluid alignleft" height="200" width="200" src="https://via.placeholder.com/200x200?text=tab-img01-200x200.jpg" alt="image" />
+                                                <img className="img-fluid alignleft" height="200" width="200" src="images/About/MissionVisionValue/1.png" alt="image" />
                                             </div>
                                             <div className="col-lg-8 col-md-9 col-sm-8">
                                                 <div className="pt-15">
@@ -110,7 +110,7 @@ export class About_us extends Component {
                                         <TabPanel>
                                         <div className="row">
                                             <div className="col-lg-4 col-md-3 col-sm-4">
-                                                <img className="img-fluid alignleft" height="200" width="200" src="https://via.placeholder.com/200x200?text=tab-img02-200x200.jpg" alt="image" />
+                                                <img className="img-fluid alignleft" height="200" width="200" src="images/About/MissionVisionValue/2.png" alt="image" />
                                             </div>
                                             <div className="col-lg-8 col-md-9 col-sm-8">
                                                 <div className="pt-15">
@@ -127,7 +127,7 @@ export class About_us extends Component {
                                         <TabPanel>
                                         <div className="row">
                                             <div className="col-lg-4 col-md-3 col-sm-4">
-                                                <img className="img-fluid alignleft" height="200" width="200" src="https://via.placeholder.com/200x200?text=tab-img03-200x200.jpg" alt="image" />
+                                                <img className="img-fluid alignleft" height="200" width="200" src="images/About/MissionVisionValue/3.png" alt="image" />
                                             </div>
                                             <div className="col-lg-8 col-md-9 col-sm-8">
                                                 <div className="pt-15">
@@ -148,7 +148,7 @@ export class About_us extends Component {
                         <div className="col-lg-6">
                             <div className="mr-30 mt-30 mt-lg-60 mb-lg-30">
                                 <div className="d-flex">
-                                    <img src="https://via.placeholder.com/541x420?text=single-img-05-541x420.jpg" className="img-fluid" alt="single_05" />
+                                    <img src="images/About/about1.png" className="img-fluid" alt="single_05" />
                                     <div className="flex-basis-auto ml_180 mr_30 mt_30 z-index_1">
                                         <img src="images/dot-pattern.png" className="img-fluid" alt="dot-pattern" />
                                     </div>
@@ -351,7 +351,7 @@ export class About_us extends Component {
 
                         
             {/* padding_bottom_zero-section */}
-            <section className="ttm-row padding_bottom_zero-section bg-img6 bg-theme-DarkColor ttm-bg ttm-bgimage-yes text-theme-WhiteColor clearfix" style={{ backgroundImage: 'url("https://via.placeholder.com/1920x640?text=1920x640+row-bgimage-6.jpg")' }}>
+            <section className="ttm-row padding_bottom_zero-section bg-img6 bg-theme-DarkColor ttm-bg ttm-bgimage-yes text-theme-WhiteColor clearfix" style={{ backgroundImage: 'url("images/About/about2.png")' }}>
                 <div className="ttm-row-wrapper-bg-layer ttm-bg-layer bg-theme-DarkColor"></div>
                 <div className="container">
                     {/* row */}
@@ -527,10 +527,10 @@ export class About_us extends Component {
                         <div className="col-lg-4 col-md-12">
                             {/* col-img-img-six */}
                             <div className="ttm-bg ttm-col-bgimage-yes col-bg-img-six ttm-right-span z-index-2 ml_120 ml_lg-0">
-                                <div className="ttm-col-wrapper-bg-layer ttm-bg-layer" style={{ backgroundImage: 'url(https://via.placeholder.com/902x673?text=902x673+col-bgimage-6.jpg)' }}></div>
+                                <div className="ttm-col-wrapper-bg-layer ttm-bg-layer" style={{ backgroundImage: 'url(images/About/About3.png)' }}></div>
                                 <div className="layer-content">
                                 </div>
-                                <img className="img-fluid col-bg-img-res" src="https://via.placeholder.com/902x673?text=902x673+col-bgimage-6.jpg" alt="bgimage" />
+                                <img className="img-fluid col-bg-img-res" src="images/About/About3.png" alt="bgimage" />
                             </div>{/* col-img-bg-img-six end */}
                         </div>
                     </div>{/* row end */}
@@ -695,7 +695,7 @@ export class About_us extends Component {
                         <div className="col-lg-6">
                             <div className="pr-30 pr-md-0 mt-15">
                                 <div className="ttm_single_image-wrapper mb-20">
-                                    <img className="img-fluid w-100" src="https://via.placeholder.com/530x190?text=single-img-06-530x190.jpg" alt="single_06" />
+                                    <img className="img-fluid w-100" src="images/About/GetInTouch.png" alt="single_06" />
                                 </div>
                                 <p className="mb-30">Need help? We exist to serve the user with the purpose of providing them with information. We want
                                  you to find what you’re looking for. For any query, please contact HireCo experts for the best solution.</p>

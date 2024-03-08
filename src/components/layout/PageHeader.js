@@ -2,7 +2,7 @@ import React from 'react';
 
 const PageHeader = ({title,content,breadcrumb,className}) => {
     return (
-        <div className="page-header-area bg-img" style={{backgroundImage: 'url(https://via.placeholder.com/1920x193?text=pagetitle-bg-1920x193.png)' }}>
+        <div className="page-header-area bg-img" style={{backgroundImage: 'url(images/About/AboutBg.png)' }}>
             <div className="page-header-area-inner">
                 <div className="container">
                     <div className="row">
