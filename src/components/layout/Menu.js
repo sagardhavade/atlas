@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 export class Menu extends Component {
     state = {
@@ -7,7 +7,7 @@ export class Menu extends Component {
     }
     render() {
         return (
-            <Router>
+            <BrowserRouter>
                 <nav className="main-menu">
                     <ul className="menu">
                         <li className="mega-menu-item">
@@ -19,13 +19,13 @@ export class Menu extends Component {
                             </ul> */}
                         </li>
                         <li className="mega-menu-item">
-                            <a href={process.env.PUBLIC_URL + '/about_us'} className="mega-menu-link">About Us</a>
+                            <a href={process.env.PUBLIC_URL + '/About_us'} className="mega-menu-link">About Us</a>
                         </li>
                         <li className="mega-menu-item">
-                        <a href={process.env.PUBLIC_URL + '/services'} className="mega-menu-link">Services</a>
+                        <a href={process.env.PUBLIC_URL + '/Services'} className="mega-menu-link">Services</a>
                         </li>
                         <li className="mega-menu-item">
-                        <a href={process.env.PUBLIC_URL + '/services_details'} className="mega-menu-link">Services Details</a>
+                        <a href={process.env.PUBLIC_URL + '/Services_details'} className="mega-menu-link">Services Details</a>
                         </li>
                         <li className="mega-menu-item">
                         <a href={process.env.PUBLIC_URL + '/Contact_01'} className="mega-menu-link">Contact</a>
@@ -68,16 +68,16 @@ export class Menu extends Component {
                             </ul>
                         </li> */}
                         <li className="mega-menu-item">
-                            <a href={process.env.PUBLIC_URL + '/blog_classic'} className="mega-menu-link">Blog</a>
+                            <a href={process.env.PUBLIC_URL + '/Blog_classic'} className="mega-menu-link">Blog</a>
                             <ul className="mega-submenu">
-                                <li><a href={process.env.PUBLIC_URL + '/blog_classic'}>Blog Classic</a></li>
-                                <li><a href={process.env.PUBLIC_URL + '/blog_grid'}>Blog Grid</a></li>
-                                <li><a href={process.env.PUBLIC_URL + '/blog_details'}>Blog Details</a></li>
+                                <li><a href={process.env.PUBLIC_URL + '/Blog_classic'}>Blog Classic</a></li>
+                                <li><a href={process.env.PUBLIC_URL + '/Blog_grid'}>Blog Grid</a></li>
+                                <li><a href={process.env.PUBLIC_URL + '/Blog_details'}>Blog Details</a></li>
                             </ul>
                         </li>
                     </ul>
                 </nav>
-            </Router>
+            </BrowserRouter>
         )
 
     }
