@@ -40,7 +40,7 @@ function App() {
     <div className="page">
       <Router> 
         
-        <Route exact path={`${process.env.PUBLIC_URL + '/Home2'}`} component={ Home2 } />
+        <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={ Home2 } />
         {/* <Route exact path={`${process.env.PUBLIC_URL + '/Home2'}`} component={ Home2 } /> 
         <Route exact path={`${process.env.PUBLIC_URL + '/Home3'}`} component={ Home3 } />  */}
 
