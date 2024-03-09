@@ -38,7 +38,7 @@ function App() {
  
   return (
     <div className="page">
-      <Router> 
+      <Router basename='/atlas'> 
         
         <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={ Home2 } />
         {/* <Route exact path={`${process.env.PUBLIC_URL + '/Home2'}`} component={ Home2 } /> 
