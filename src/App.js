@@ -36,9 +36,9 @@ function App () {
   return (
     <div className='page'>
       <Router>
-        <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={Home2} />
+        <Route exact path={`${process.env.PUBLIC_URL + '/Home2'}`} component={Home2} />
         {/* <Route exact path={`${process.env.PUBLIC_URL + '/Home2'}`} component={ Home2 } />
-                        <Route exact path={`${process.env.PUBLIC_URL + '/Home3'}`} component={ Home3 } />  */}
+                                        <Route exact path={`${process.env.PUBLIC_URL + '/Home3'}`} component={ Home3 } />  */}
         <Route exact path={`${process.env.PUBLIC_URL + '/About_us'}`} component={About_us} />
         <Route exact path={`${process.env.PUBLIC_URL + '/Services'}`} component={Services} />
         <Route exact path={`${process.env.PUBLIC_URL + '/Services_details'}`} component={Services_details} />
