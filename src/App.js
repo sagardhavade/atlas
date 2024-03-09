@@ -35,10 +35,10 @@ import ScrollToTop from './components/layout/Gotop'
 function App () {
   return (
     <div className='page'>
-      <BrowserRouter>
+      <BrowserRouter basename='/'>
         <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={Home2} />
         {/* <Route exact path={`${process.env.PUBLIC_URL + '/Home2'}`} component={ Home2 } />
-                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Home3'}`} component={ Home3 } />  */}
+                                                                                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Home3'}`} component={ Home3 } />  */}
         <Route exact path={`${process.env.PUBLIC_URL + '/About_us'}`} component={About_us} />
         <Route exact path={`${process.env.PUBLIC_URL + '/Services'}`} component={Services} />
         <Route exact path={`${process.env.PUBLIC_URL + '/Services_details'}`} component={Services_details} />
@@ -47,17 +47,17 @@ function App () {
         <Route exact path={`${process.env.PUBLIC_URL + '/Blog_details'}`} component={Blog_details} />
         <Route exact path={`${process.env.PUBLIC_URL + '/Contact_01'}`} component={Contact_01} />
         {/* <Route exact path={`${process.env.PUBLIC_URL + '/Contact_02'}`} component={Contact_02} />
-                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Job_list'}`} component={Job_list} />
-                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Job_details'}`} component={Job_details} />
-                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Carrer_01'}`} component={Carrer_01} />
-                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Error_404'}`} component={Error_404} />
-                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Error_405'}`} component={Error_405} />
-                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Employers_list'}`} component={Employers_list} />
-                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Employers_details'}`} component={Employers_details} />
-                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Candidate_list'}`} component={Candidate_list} />
-                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Candidate_details'}`} component={Candidate_details} />
-                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Login'}`} component={Login} />
-                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Register'}`} component={Register} /> */}
+                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Job_list'}`} component={Job_list} />
+                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Job_details'}`} component={Job_details} />
+                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Carrer_01'}`} component={Carrer_01} />
+                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Error_404'}`} component={Error_404} />
+                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Error_405'}`} component={Error_405} />
+                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Employers_list'}`} component={Employers_list} />
+                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Employers_details'}`} component={Employers_details} />
+                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Candidate_list'}`} component={Candidate_list} />
+                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Candidate_details'}`} component={Candidate_details} />
+                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Login'}`} component={Login} />
+                                                                                                                                                                                                                        <Route exact path={`${process.env.PUBLIC_URL + '/Register'}`} component={Register} /> */}
         <ScrollToTop />
       </BrowserRouter>
     </div>
