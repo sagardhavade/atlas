@@ -1,14 +1,14 @@
 import React from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter , Route} from 'react-router-dom';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './css/vendor/flaticon.css';
 import './css/vendor/fontawesome.min.css';
 import './css/vendor/themify-icons.css';
 
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import Home2 from './pages/Home2';
-import Home3 from './pages/Home3';
+// import Home3 from './pages/Home3';
 
 import About_us from './pages/About_us';
 import Services from './pages/Services';
@@ -38,14 +38,14 @@ function App() {
  
   return (
     <div className="page">
-      <Router> 
+      <BrowserRouter basename='/atlas'> 
         
         <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={ Home2 } />
         {/* <Route exact path={`${process.env.PUBLIC_URL + '/Home2'}`} component={ Home2 } /> 
         <Route exact path={`${process.env.PUBLIC_URL + '/Home3'}`} component={ Home3 } />  */}
 
-        <Route exact path={`${process.env.PUBLIC_URL + '/about_us'}`} component={ About_us } /> 
-        <Route exact path={`${process.env.PUBLIC_URL + '/services'}`} component={ Services } />
+        <Route exact path={`${process.env.PUBLIC_URL + '/About_us'}`} component={ About_us } /> 
+        <Route exact path={`${process.env.PUBLIC_URL + '/Services'}`} component={ Services } />
         <Route exact path={`${process.env.PUBLIC_URL + '/Services_details'}`} component={ Services_details } />
         <Route exact path={`${process.env.PUBLIC_URL + '/Blog_classic'}`} component={ Blog_classic } />
         <Route exact path={`${process.env.PUBLIC_URL + '/Blog_grid'}`} component={ Blog_grid } />
@@ -66,7 +66,7 @@ function App() {
        
 
         <ScrollToTop />
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
