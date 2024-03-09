@@ -218,32 +218,31 @@ export class Home2 extends Component {
                                 <div className="section-title">
                                     <div className="title-header">
                                         <h3>who <span className="text-theme-SkinColor">we are!</span></h3>
-                                        <h2 className="title">Best Employment Services For Your Business</h2>
+                                        <h2 className="title">Atlas India: Your Premier Seafarer Recruitment Partner</h2>
                                     </div>
                                     <div className="title-desc">
-                                        <p>Our dedicated group of experts assists you with meeting your business objectives. We give job searchers and
-                                            IT experts the chance to track down ideal a profession that guarantees long term development and learning.</p>
+                                        <p>Atlas India stands as a beacon in the maritime industry, specializing in the recruitment of highly skilled seafarers for a myriad of positions and ratings. With our headquarters strategically located in Mumbai, India, and an operational hub in Doha, Qatar, we are dedicated to meeting the dynamic needs of the maritime sector.</p>
                                     </div>
                                 </div>{/* section title end */}
                                 <div className="mb-35">
                                     <ul className="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor text-theme-DarkColor">
                                         <li><i className="far fa-check-circle"></i>
-                                            <div className="ttm-list-li-content">The most progressive and expert staffing arrangement worldwide</div>
+                                            <div className="ttm-list-li-content">Global recruitment expertise tailored to maritime needs.</div>
                                         </li>
                                         <li><i className="far fa-check-circle"></i>
-                                            <div className="ttm-list-li-content">With over 2,000 offices & thousands of recruiters through overseas</div>
+                                            <div className="ttm-list-li-content">Extensive database of skilled seafarers worldwide.</div>
                                         </li>
                                         <li><i className="far fa-check-circle"></i>
-                                            <div className="ttm-list-li-content">Create personalized connections through the branded experience</div>
+                                            <div className="ttm-list-li-content">Unique industry insights for informed recruitment.</div>
                                         </li>
                                         <li><i className="far fa-check-circle"></i>
-                                            <div className="ttm-list-li-content">We have 90% best strategies that get the best suitable candidates</div>
+                                            <div className="ttm-list-li-content">Personalized solutions for every client.</div>
                                         </li>
                                         <li><i className="far fa-check-circle"></i>
-                                            <div className="ttm-list-li-content">All your recruitment process outsourcing with extreme truthfulness</div>
+                                            <div className="ttm-list-li-content">Seamless support from sourcing to onboarding.</div>
                                         </li>
                                         <li><i className="far fa-check-circle"></i>
-                                            <div className="ttm-list-li-content">We have 90% best strategies that get the best suitable candidates</div>
+                                            <div className="ttm-list-li-content">Uncompromising commitment to quality and excellence.</div>
                                         </li>
                                     </ul>
                                 </div>
@@ -280,7 +279,7 @@ export class Home2 extends Component {
                                 <div className="section-title title-style-center_text">
                                     <div className="title-header">
                                         <h3>What <span className="text-theme-SkinColor">we serve!</span></h3>
-                                        <h2 className="title">Recruitment Services</h2>
+                                        <h2 className="title">Our Services</h2>
                                     </div>
                                 </div>{/* section title end */}
                             </div>
@@ -292,15 +291,16 @@ export class Home2 extends Component {
                                 <div className="featured-icon-box icon-align-before-title style3">
                                     <div className="featured-icon">
                                         <div className="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                            <i className="flaticon-research"></i>
+                                            {/* <i className="flaticon-research"></i> */}
+                                            <i className="flaticon-recruitment-7"></i>
                                         </div>
                                     </div>
                                     <div className="featured-title">
-                                        <h3>Human Resource</h3>
+                                        <h3>DRILLING & WELL SERVICE</h3>
                                     </div>
                                     <div className="featured-content">
                                         <div className="featured-desc">
-                                            <p>Make up the workforce of an organization, business firm, industry, or economy</p>
+                                            <p>Expert solutions for drilling and well operations, ensuring efficiency and safety throughout.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
@@ -314,11 +314,11 @@ export class Home2 extends Component {
                                         </div>
                                     </div>
                                     <div className="featured-title">
-                                        <h3>Executive Search</h3>
+                                        <h3>MARINE SERVICE</h3>
                                     </div>
                                     <div className="featured-content">
                                         <div className="featured-desc">
-                                            <p>Specializes in recruiting executives and other personnel for their client company </p>
+                                            <p>Comprehensive marine solutions tailored to your specific needs, delivering excellence in every voyage.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
@@ -328,73 +328,20 @@ export class Home2 extends Component {
                                 <div className="featured-icon-box icon-align-before-title style3">
                                     <div className="featured-icon">
                                         <div className="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                            <i className="flaticon-recruiting"></i>
-                                        </div>
-                                    </div>
-                                    <div className="featured-title">
-                                        <h3>Retained search</h3>
-                                    </div>
-                                    <div className="featured-content">
-                                        <div className="featured-desc">
-                                            <p>HireCo tens to accelerate innovation current and future based solutions to support</p>
-                                        </div>
-                                    </div>
-                                </div>{/* featured-icon-box end */}
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                                {/* featured-icon-box */}
-                                <div className="featured-icon-box icon-align-before-title style3">
-                                    <div className="featured-icon">
-                                        <div className="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                            <i className="flaticon-recruitment-7"></i>
-                                        </div>
-                                    </div>
-                                    <div className="featured-title">
-                                        <h3>Forte Acquisition</h3>
-                                    </div>
-                                    <div className="featured-content">
-                                        <div className="featured-desc">
-                                            <p>To accelerate innovation current and future based solutions to support clients!</p>
-                                        </div>
-                                    </div>
-                                </div>{/* featured-icon-box end */}
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                                {/* featured-icon-box */}
-                                <div className="featured-icon-box icon-align-before-title style3">
-                                    <div className="featured-icon">
-                                        <div className="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                            <i className="flaticon-recruitment"></i>
-                                        </div>
-                                    </div>
-                                    <div className="featured-title">
-                                        <h3>Manpower Supply</h3>
-                                    </div>
-                                    <div className="featured-content">
-                                        <div className="featured-desc">
-                                            <p>A quality personnel to the fields of expertise that needed for all kind of projects</p>
-                                        </div>
-                                    </div>
-                                </div>{/* featured-icon-box end */}
-                            </div>
-                            <div className="col-lg-4 col-md-6 col-sm-6">
-                                {/* featured-icon-box */}
-                                <div className="featured-icon-box icon-align-before-title style3">
-                                    <div className="featured-icon">
-                                        <div className="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                                            {/* <i className="flaticon-recruiting"></i> */}
                                             <i className="flaticon-technical-support"></i>
                                         </div>
                                     </div>
                                     <div className="featured-title">
-                                        <h3>Technical Services</h3>
+                                        <h3>DREDGING SERVICE</h3>
                                     </div>
                                     <div className="featured-content">
                                         <div className="featured-desc">
-                                            <p>We do supply variety of services including fabrication, design, commissioning.</p>
+                                            <p>Specialized dredging services designed to meet the unique challenges of marine construction projects.</p>
                                         </div>
                                     </div>
-                                </div>{/* ttm-box-view-overlay end */}
-                            </div>
+                                </div>{/* featured-icon-box end */}
+                            </div>                            
                         </div>
                         {/* row end */}
                     </div>

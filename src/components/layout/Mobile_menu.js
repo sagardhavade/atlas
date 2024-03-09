@@ -96,6 +96,18 @@ class Mobile_menu extends Component {
 
                 </MDBDropdown>
               </MDBNavItem>
+              <MDBNavItem>
+                <MDBDropdown>
+                 
+                  <MDBDropdownToggle nav caret>Contact</MDBDropdownToggle>
+                  <MDBDropdownMenu>
+
+                    <MDBDropdownItem href={process.env.PUBLIC_URL + '/Contact_01'}>Contact</MDBDropdownItem>
+
+                  </MDBDropdownMenu>
+
+                </MDBDropdown>
+              </MDBNavItem>
               {/* <MDBNavItem>
                 <MDBDropdown>
                   <MDBDropdownToggle nav caret>Candidates</MDBDropdownToggle>

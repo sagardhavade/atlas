@@ -27,6 +27,9 @@ export class Menu extends Component {
                         <li className="mega-menu-item">
                         <a href={process.env.PUBLIC_URL + '/services_details'} className="mega-menu-link">Services Details</a>
                         </li>
+                        <li className="mega-menu-item">
+                        <a href={process.env.PUBLIC_URL + '/Contact_01'} className="mega-menu-link">Contact</a>
+                        </li>
 
                         {/* <li className="mega-menu-item">
                             <a href={process.env.PUBLIC_URL + '/about_us'} className="mega-menu-link">Pages</a>

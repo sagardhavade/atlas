@@ -48,7 +48,7 @@ const OurProject = () => {
                                 <div className="section-title style2 mb-0">
                                     <div className="title-header">
                                         <h3>Find The <span className="text-theme-SkinColor">Best One!</span></h3>
-                                        <h2 className="title">Jobs By Positions</h2>
+                                        <h2 className="title"> Our Projects </h2>
                                     </div>
                                     <div className="title-desc">
                                         <p>We have over 30 years experience of Financial ,Marketing and Busness Solutions expertise,
@@ -72,7 +72,7 @@ const OurProject = () => {
                                             <h3>WebDesigner</h3>
                                         </div>
                                         <div className="featured-desc">
-                                            <p>25 Open Positions</p>
+                                            <p>25 Hired.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
@@ -90,7 +90,7 @@ const OurProject = () => {
                                             <h3>Education Training</h3>
                                         </div>
                                         <div className="featured-desc">
-                                            <p>14 Open Positions</p>
+                                            <p>14 Hired.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
@@ -108,7 +108,7 @@ const OurProject = () => {
                                             <h3>Accounting Finance</h3>
                                         </div>
                                         <div className="featured-desc">
-                                            <p>58 Open Positions</p>
+                                            <p>58 Hired.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
@@ -126,7 +126,7 @@ const OurProject = () => {
                                             <h3>Construction</h3>
                                         </div>
                                         <div className="featured-desc">
-                                            <p>20 Open Positions</p>
+                                            <p>20 Hired.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
@@ -144,7 +144,7 @@ const OurProject = () => {
                                             <h3>Human Resource</h3>
                                         </div>
                                         <div className="featured-desc">
-                                            <p>28 Open Positions</p>
+                                            <p>28 Hired.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
@@ -162,7 +162,7 @@ const OurProject = () => {
                                             <h3>CallCenter</h3>
                                         </div>
                                         <div className="featured-desc">
-                                            <p>58 Open Positions</p>
+                                            <p>58 Hired.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
@@ -180,7 +180,7 @@ const OurProject = () => {
                                             <h3>Restaurants</h3>
                                         </div>
                                         <div className="featured-desc">
-                                            <p>17 Open Positions</p>
+                                            <p>17 Hired.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
@@ -198,7 +198,7 @@ const OurProject = () => {
                                             <h3>Health</h3>
                                         </div>
                                         <div className="featured-desc">
-                                            <p>02 Open Positions</p>
+                                            <p>02 Hired.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
@@ -216,7 +216,7 @@ const OurProject = () => {
                                             <h3>WebDesigner</h3>
                                         </div>
                                         <div className="featured-desc">
-                                            <p>25 Open Positions</p>
+                                            <p>25 Hired.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
@@ -234,7 +234,7 @@ const OurProject = () => {
                                             <h3>Education Training</h3>
                                         </div>
                                         <div className="featured-desc">
-                                            <p>14 Open Positions</p>
+                                            <p>14 Hired.</p>
                                         </div>
                                     </div>
                                 </div>{/* featured-icon-box end */}
