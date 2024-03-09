@@ -11,7 +11,7 @@ export class Menu extends Component {
                 <nav className="main-menu">
                     <ul className="menu">
                         <li className="mega-menu-item">
-                            <a href={process.env.PUBLIC_URL + '/Home2'} className="mega-menu-link">Home</a>
+                            <a href={process.env.PUBLIC_URL + '/'} className="mega-menu-link">Home</a>
                             {/* <ul className="mega-submenu">
                                 <li><a href={process.env.PUBLIC_URL + '/'}>Job Seeker</a></li>
                                 <li><a href={process.env.PUBLIC_URL + '/home2'}>Job Consultancy</a></li>
