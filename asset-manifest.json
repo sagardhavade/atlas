@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/atlas/static/css/main.47c51735.chunk.css",
-    "main.js": "/atlas/static/js/main.4d050a0d.chunk.js",
-    "main.js.map": "/atlas/static/js/main.4d050a0d.chunk.js.map",
+    "main.js": "/atlas/static/js/main.4cb19ca6.chunk.js",
+    "main.js.map": "/atlas/static/js/main.4cb19ca6.chunk.js.map",
     "runtime-main.js": "/atlas/static/js/runtime-main.011f8add.js",
     "runtime-main.js.map": "/atlas/static/js/runtime-main.011f8add.js.map",
     "static/css/2.58ab689b.chunk.css": "/atlas/static/css/2.58ab689b.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.58ab689b.chunk.css",
     "static/js/2.f90d051a.chunk.js",
     "static/css/main.47c51735.chunk.css",
-    "static/js/main.4d050a0d.chunk.js"
+    "static/js/main.4cb19ca6.chunk.js"
   ]
 }
