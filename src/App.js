@@ -36,24 +36,24 @@ function App () {
   return (
     <div className='page'>
       <BrowserRouter>
-        {/* <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={Home2} /> */}
-        <Route exact path='/atlas' component={Home2} />
+        <Route exact path={`${process.env.PUBLIC_URL + '/'}`} component={Home2} />
+        {/* <Route exact path='/atlas' component={Home2} /> */}
         {/* <Route exact path={`${process.env.PUBLIC_URL + '/Home2'}`} component={ Home2 } />
                                                                                                                                                                                                                                                                                         <Route exact path={`${process.env.PUBLIC_URL + '/Home3'}`} component={ Home3 } />  */}
-        {/* <Route exact path={`${process.env.PUBLIC_URL + '/About_us'}`} component={About_us} />
-        <Route exact path={`${process.env.PUBLIC_URL + '/Services'}`} component={Services} />
-        <Route exact path={`${process.env.PUBLIC_URL + '/Services_details'}`} component={Services_details} />
-        <Route exact path={`${process.env.PUBLIC_URL + '/Blog_classic'}`} component={Blog_classic} />
-        <Route exact path={`${process.env.PUBLIC_URL + '/Blog_grid'}`} component={Blog_grid} />
-        <Route exact path={`${process.env.PUBLIC_URL + '/Blog_details'}`} component={Blog_details} />
-        <Route exact path={`${process.env.PUBLIC_URL + '/Contact_01'}`} component={Contact_01} /> */}
-         <Route exact path='/atlas/About_us' component={About_us} />
+        <Route exact path={`${process.env.PUBLIC_URL + '/About_us'}`} component={About_us} />
+         <Route exact path={`${process.env.PUBLIC_URL + '/Services'}`} component={Services} />
+         <Route exact path={`${process.env.PUBLIC_URL + '/Services_details'}`} component={Services_details} />
+         <Route exact path={`${process.env.PUBLIC_URL + '/Blog_classic'}`} component={Blog_classic} />
+         <Route exact path={`${process.env.PUBLIC_URL + '/Blog_grid'}`} component={Blog_grid} />
+         <Route exact path={`${process.env.PUBLIC_URL + '/Blog_details'}`} component={Blog_details} />
+         <Route exact path={`${process.env.PUBLIC_URL + '/Contact_01'}`} component={Contact_01} />
+         {/* <Route exact path='/atlas/About_us' component={About_us} />
         <Route exact path='/atlas/Services' component={Services} />
         <Route exact path='/atlas/Services_details' component={Services_details} />
         <Route exact path='/atlas/Blog_classic' component={Blog_classic} />
         <Route exact path='/atlas/Blog_grid' component={Blog_grid} />
         <Route exact path='/atlas/Blog_details' component={Blog_details} />
-        <Route exact path='/atlas/Contact_01' component={Contact_01} />
+        <Route exact path='/atlas/Contact_01' component={Contact_01} /> */}
         {/* <Route exact path={`${process.env.PUBLIC_URL + '/Contact_02'}`} component={Contact_02} />
                                                                                                                                                                                                                         <Route exact path={`${process.env.PUBLIC_URL + '/Job_list'}`} component={Job_list} />
                                                                                                                                                                                                                         <Route exact path={`${process.env.PUBLIC_URL + '/Job_details'}`} component={Job_details} />
